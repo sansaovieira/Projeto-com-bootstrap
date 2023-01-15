@@ -1,0 +1,41 @@
+:root{
+    --cor-vermelha-escura: darkred;
+}
+.fonte-titulo{
+    font-family: 'Pacifico', cursive;
+}
+.imagem-carrossel-um{
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
+.card-largura{
+    max-width: 18rem;
+}
+.imagem-carrossel-dois{
+    object-fit: cover;
+    height: 400px;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 200px;
+}
+.cor-especial{
+    color: var(--cor-vermelha-escura)!important;
+}
+
+.botao-legenda{
+    background-color: var(--cor-vermelha-escura);
+    color: #fff;
+}
+
+.botao-legenda:hover{
+    color: #fff;
+}
+
+.borda-cards{
+    border-color: var(--cor-vermelha-escura);
+}
